@@ -68,10 +68,10 @@ class ConnListener(OpenRTM_aist.ConnectorListener):
 # <rtc-template block="module_spec">
 bridge_spec = ["implementation_id", "Bridge", 
 		 "type_name",         "Bridge", 
-		 "description",       "ModuleDescription", 
+		 "description",       "Bridge Component", 
 		 "version",           "1.0.0", 
-		 "vendor",            "VenderName", 
-		 "category",          "Category", 
+		 "vendor",            "Nobuhiko Miyamoto", 
+		 "category",          "Bridge", 
 		 "activity_type",     "STATIC", 
 		 "max_instance",      "1", 
 		 "language",          "Python", 
